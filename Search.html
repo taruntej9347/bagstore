@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Products</title>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            background-color: white;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Search for Products</h2>
+        <form action="search_results.html" method="GET">
+            <label for="search-query">Search Products:</label>
+            <input type="text" id="search-query" name="query" placeholder="Enter product name or category" required>
+            
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <div class="footer">
+        <p>Smart Bag Online Store | GITAM University, Bangalore, INDIA</p>
+        <p>Phone: +91 9876543210 | Email: support@smartbagstore.com</p>
+    </div>
+</body>
+</html>

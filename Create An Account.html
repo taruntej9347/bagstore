@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a New Account</title>
+	<!-- First Eco-friendly Bag 
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-left: 400px;
+            border: 2px dashed red;
+            width: 400px;
+            height: 650px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+        th {
+            text-align: center;
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+        input[type="text"], input[type="password"], input[type="date"], input[type="email"], textarea {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        textarea {
+            resize: none;
+        }
+        input[type="radio"] {
+            margin-left: 10px;
+        }
+        input[type="submit"], input[type="reset"] {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f44336;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="reset"] {
+            background-color: #999;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            opacity: 0.8;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="container">
+        <form action="submit_form.html" method="post">
+            <table>
+                <tr>
+                    <th colspan="2">Fill Details For Account Creation</th>
+                </tr>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="fname" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="lname" required></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="uname" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password" name="confirm_password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Address:</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea name="address" rows="4" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Postal Code:</td>
+                    <td><input type="text" name="postal_code" maxlength="6" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile No:</td>
+                    <td><input type="text" name="mobile" maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td>Email-ID:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="reset" value="RESET"></td>
+                    <td align="center"><input type="submit" value="SUBMIT"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
