@@ -4,8 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smart Bag Online Store</title>
+  <style>
+    /* Apply styles to the header */
+    header {
+      display: flex; /* Flexbox layout for better alignment */
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center align the header text */
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
 
+    /* Styling for the main content */
+    .main-content {
+      display: flex; /* Flexbox for arranging child elements in a row */
+      justify-content: space-between; /* Space between each table cell */
+    }
+
+    .main-content table {
+      margin: auto;
+      border-collapse: collapse;
+    }
+
+    .main-content td {
+      width: 30%; /* Adjust column widths */
+      padding: 15px;
+    }
+
+    /* Floating images within cells */
+    .main-content td img {
+      float: left; /* Floats the image to the left side of its container */
+      margin-right: 10px; /* Adds space between the image and text */
+      display: block; /* Ensures proper layout in floated content */
+      border: 2px solid #ddd; /* Adds a border to the image */
+    }
+  </style>
+</head>
 <!-- Header -->
+  <body>
 <header>
   <h1>Welcome to Smart Bag Online Store</h1>
   <p>Your one-stop shop for all your travel, work, and college bag needs.</p>
