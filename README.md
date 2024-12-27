@@ -1,4 +1,4 @@
-This repo contains the HTML codes for the website called online bag store, which is a full stack project.
+This repo contains the HTML codes for the website called online bag store, which is a full stack project. <br>
 Author 1 : B.Taruntej
 <br>
 Author 2 : J.Sree Valli
